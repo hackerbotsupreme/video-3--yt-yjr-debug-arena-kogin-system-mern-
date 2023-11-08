@@ -1,0 +1,24 @@
+API 
+api is the application programming , it is a type of middleware that allows two application 
+to talk to each other . 
+example , suppose we have a login form and wehave a database where we sstores users data now we want when ever 
+the user ould fill the foorm and click on the submit there should be something which verify that user exist or not in our 
+database so for that we need an api , so when the user would submit details it will send a request to the api 
+please go and sheck if the user exists in databaseor not then api will send back request to the database and databse 
+will send response that yes the user exists and the api will forward that to the website , so in this way all 
+the  login authentication will happen .
+
+login form -> api -> database 
+
+here we will see how can we make api .
+
+so first come to the root folder for our project then  
+create a package.json using npm init (or npm init -y)
+and to make an api we require to install some packages , 
+we will use express (express is a framework of a node) -> npm install express
+and we will use express to make an api 
+and we will instll nodemon so that we can run our server smoothly -> npm install nodemon 
+now everything is ready , noe the next step is 
+create a  new folder app.js 
+
+
